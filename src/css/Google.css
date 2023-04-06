@@ -36,7 +36,7 @@ body {
 }
 /* The search bar styling */
 .input-field {
- width: 500px;
+ width: 520px;
  height: 50px;
  border-radius: 200px;
  display: flex;
@@ -48,14 +48,14 @@ body {
 .mic {
     width: 2%;
     position: absolute;
-    left: 63%;
+    left: 65%;
     top: 49%;
 }
 .search-icon {
     width: 1.5%;
     opacity: 0.5;
     position: absolute;
-    left: 34.5%;
+    left: 34%;
     top: 49.5%;
 }
 .input-field::placeholder {
@@ -73,4 +73,71 @@ body {
 }
 .info:hover {
     text-decoration: underline;
+}
+.info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(71, 71, 254);
+}
+.info {
+    background-color: rgb(240, 240, 240);
+    width: 120px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+    color: #1b1c1e;
+}
+.info-div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/* Language area */
+.language-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    font-size: 1rem;
+}
+.languages {
+    color: rgb(71, 71, 254);
+}
+.languages:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Footer region styling */
+.footer {
+    overflow: hidden;
+    width: 100vw;
+    height: 80px;
+    margin-top: 132px;
+    background-color: rgb(240, 240, 240);
+}
+.services-div {
+    display: flex;
+}
+.country {
+    padding: 10px;
+}
+.services {
+    padding: 10px;
+}
+.services:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(71, 71, 254);
+}
+.middle, .right {
+    display: flex;
+    justify-content: center;
+}
+.right {
+  margin-left: 450px;  
+}
+.copywright-logo {
+    width: 6%;
+    margin: 10px 0 0 250px;
 }
