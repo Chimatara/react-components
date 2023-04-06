@@ -4,19 +4,73 @@ body {
 .appLauncher {
     width: 20px;
     height: auto;
+    margin: 5px 0 0 20px;
+    
 }
 .myAvatar {
-    width: 2.5%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
+    margin-left: 20px;
 }
 .container {
     display: flex;
     flex-direction: row;
-    padding: 20px;
-    justify-content: flex-end;
+    margin: 20px;
 }
 .wrapper {
+    width: 80%;
+}
+.child {
+    width: 20%;
     display: flex;
     
+}
+.links {
+    padding-left: 20px;
+}
+.links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(71, 71, 254);
+}
+/* The search bar styling */
+.input-field {
+ width: 500px;
+ height: 50px;
+ border-radius: 200px;
+ display: flex;
+ margin:25px auto;
+ position: relative;
+ border: 2px solid lightgrey;
+ 
+}
+.mic {
+    width: 2%;
+    position: absolute;
+    left: 63%;
+    top: 49%;
+}
+.search-icon {
+    width: 1.5%;
+    opacity: 0.5;
+    position: absolute;
+    left: 34.5%;
+    top: 49.5%;
+}
+.input-field::placeholder {
+    font-size: 1rem;
+    text-indent: 60px;
+}
+.google-logo {
+ display: flex;
+ justify-content: center;
+ margin-top: 150px;
+}
+.info {
+    color: rgb(71, 71, 254);
+    cursor: pointer;
+}
+.info:hover {
+    text-decoration: underline;
 }

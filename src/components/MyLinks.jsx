@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyLinks = (props) => {
   return (
-    <div>{props.title}</div>
+    <div className='links'>{props.title}</div>
   )
 }
 

@@ -6,12 +6,13 @@ import Avatar from './Avatar'
 const MyHeaderSection = () => {
   return (
     <div className='container'>
-       <div className="wrapper">
+      <div className="wrapper"></div>
+      <div className="child">
             <MyLinks title={"Gmail"} />
             <MyLinks title={"Images"} />
             <AppLauncher />
             <Avatar />
-       </div>
+      </div>
     </div>
   )
 }
