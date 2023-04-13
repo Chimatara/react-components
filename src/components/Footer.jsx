@@ -8,13 +8,13 @@ const Footer = () => {
     <div className='footer'>
         <CountryName />
         <div className="services-div">
-            <Services title={"About"} />
-            <Services title={"Advertising"} />
-            <Services title={"Business"} />
-            <Services title={"How Search works"} />
+                <Services title={"About"} />
+                <Services title={"Advertising"} />
+                <Services title={"Business"} />
+                <Services title={"How Search works"} />
             <div className="middle">
                 <CopywrightLogo />
-                <Services title={"Carbon since 2007"} />
+                <Services title={"Carbon neutral since 2007"} />
             </div>
             <div className="right">
                 <Services title={"Privacy"} />
