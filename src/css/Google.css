@@ -148,3 +148,8 @@ input {
 .searched {
     text-align: center;
 }
+
+/*  The rendered input */
+.rendered-input {
+   margin-left: 500px;
+}
